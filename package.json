@@ -5,8 +5,9 @@
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server"
+    "server": "hexo server",
+    "deploy": "hexo clean && hexo g -d",
+    "start": "hexo clean && hexo g && hexo s"
   },
   "hexo": {
     "version": "4.2.1"
@@ -20,6 +21,7 @@
     "eslint-plugin-react": "^7.17.0",
     "hexo": "^4.2.1",
     "hexo-component-inferno": "^0.4.0",
+    "hexo-deployer-git": "^2.1.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index": "^2.0.0",
