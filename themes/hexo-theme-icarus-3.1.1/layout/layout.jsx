@@ -16,6 +16,7 @@ module.exports = class extends Component {
 
         return <html lang={language ? language.substr(0, 2) : ''}>
             <Head env={env} site={site} config={config} helper={helper} page={page} />
+            <script src="/live2d-widget/autoload.js"></script>
             <body class={`is-${columnCount}-column`}>
                 <Navbar config={config} helper={helper} page={page} />
                 <section class="section">
