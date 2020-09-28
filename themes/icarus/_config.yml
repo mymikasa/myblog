@@ -177,11 +177,11 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Your name
+        author: Mikasa
         # Author title
-        author_title: Your title
+        author_title: Mikasa的快乐小屋
         # Author's current location
-        location: Your location
+        location: Beijing, China
         # URL or path to the avatar image
         avatar: 
         # Whether show the rounded avatar image
