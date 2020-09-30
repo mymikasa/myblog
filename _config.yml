@@ -60,7 +60,7 @@ pagination_dir: page
 include: null
 exclude: null
 ignore: null
-theme: hexo-theme-icarus-3.1.1
+theme: hexo-icarus
 deploy:
   type: git
   repo: 'git@114.67.117.167:/home/git/repos/blog.git'
